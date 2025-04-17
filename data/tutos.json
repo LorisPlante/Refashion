@@ -1,0 +1,642 @@
+[
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 1
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 2
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 3
+  },
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 4
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 5
+  },
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 6
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 7
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 8
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 9
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 10
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 11
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 12
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 13
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 14
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 15
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 16
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 17
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 18
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 19
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 20
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 21
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 22
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 23
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 24
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 25
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 26
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 27
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 28
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 29
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 30
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 31
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 32
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 33
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 34
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 35
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 36
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 37
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 38
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 39
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 40
+  },
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 41
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 42
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 43
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 44
+  },
+  {
+    "titre": "Coller une semelle décollée",
+    "description": "Répare tes semelles comme un pro en quelques minutes.",
+    "image": "/images/tutos/semelle.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "moyen",
+    "toolsNeeded": ["colle spéciale chaussures", "chiffon", "pince"],
+    "id": 45
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 46
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 47
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 48
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 49
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 50
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 51
+  },
+  {
+    "titre": "Patcher un jean troué",
+    "description": "Technique tendance pour rendre ton jean encore plus stylé.",
+    "image": "/images/tutos/patch-jean.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch thermocollant", "fer à repasser", "fil", "aiguille"],
+    "id": 52
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 53
+  },
+  {
+    "titre": "Customiser un vieux hoodie",
+    "description": "Fais de ton sweat usé une pièce unique !",
+    "image": "/images/tutos/hoodie.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["peinture textile", "pinceaux", "ciseaux", "patchs"],
+    "id": 54
+  },
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 55
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 56
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 57
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 58
+  },
+  {
+    "titre": "Réparer une fermeture éclair cassée",
+    "description": "Une astuce simple pour débloquer ou remplacer une fermeture.",
+    "image": "/images/tutos/zip.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "moyen",
+    "toolsNeeded": ["nouvelle fermeture", "fil", "aiguille", "ciseaux"],
+    "id": 59
+  },
+  {
+    "titre": "Recoudre un bouton",
+    "description": "Apprends à recoudre un bouton rapidement et solidement.",
+    "image": "/images/tutos/bouton.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["fil", "aiguille", "bouton"],
+    "id": 60
+  },
+  {
+    "titre": "Cacher une tache sur un t-shirt",
+    "description": "DIY facile pour camoufler une tache avec style.",
+    "image": "/images/tutos/tache.jpg",
+    "categorie": "Vêtements",
+    "itemType": "vêtement",
+    "difficulty": "facile",
+    "toolsNeeded": ["patch déco", "fer à repasser", "fil"],
+    "id": 61
+  },
+  {
+    "titre": "Changer des lacets abîmés",
+    "description": "Donne un nouveau look à tes baskets avec des lacets fun.",
+    "image": "/images/tutos/lacets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["nouveaux lacets"],
+    "id": 62
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 63
+  },
+  {
+    "titre": "Nettoyer des baskets blanches",
+    "description": "Rends tes baskets comme neuves avec cette méthode simple.",
+    "image": "/images/tutos/nettoyage-baskets.jpg",
+    "categorie": "Chaussures",
+    "itemType": "chaussure",
+    "difficulty": "facile",
+    "toolsNeeded": ["brosse", "bicarbonate", "eau", "vinaigre"],
+    "id": 64
+  }
+]
