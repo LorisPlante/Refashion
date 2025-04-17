@@ -1,20 +1,6 @@
 import type { Metadata } from "next";
-import { Lato, Poppins } from "next/font/google";
+import { lato, poppins } from "@/lib/fonts";
 import "./globals.css";
-
-export const lato = Lato({
-  subsets: ["latin"],
-  weight: ["400", "700"], // Ajoute les poids que tu veux
-  variable: "--font-lato", // si tu veux les utiliser en CSS
-  display: "swap",
-});
-
-export const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-poppins",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR">
-      <body className={`${lato.variable} ${poppins.variable}`}>{children}</body>
+      <body className={`${lato} ${poppins}`}>{children}</body>
     </html>
   );
 }
