@@ -58,7 +58,7 @@ export default function Header() {
       )}
 
       {/* NAV MOBILE EN BAS DU TRUC */}
-      <nav className="fixed bottom-0 left-0 w-full p-3">
+      <nav className="block sm:hidden fixed bottom-0 left-0 w-full p-3">
         <div className="w-full h-[86px] bg-vistawhite rounded-full flex justify-around items-center relative">
           <Link href={navLinks[0].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url === navLinks[0].href ? (
