@@ -60,7 +60,7 @@ export default function Header() {
       {/* NAV MOBILE EN BAS DU TRUC */}
       <nav className="fixed bottom-0 left-0 w-full p-3">
         <div className="w-full h-[86px] bg-vistawhite rounded-full flex justify-around items-center relative">
-          <Link href={navLinks[0].href} className="flex flex-col items-center text-[10px] z-20">
+          <Link href={navLinks[0].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url === navLinks[0].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
                 <Search size={32} fill_text="fill-white"></Search>
@@ -72,7 +72,7 @@ export default function Header() {
             )}
             {navLinks[0].name}
           </Link>
-          <Link href={navLinks[1].href} className="flex flex-col items-center text-[10px] z-20">
+          <Link href={navLinks[1].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url === navLinks[1].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
                 <Formations size={32} fill_text="fill-white"></Formations>
@@ -84,7 +84,7 @@ export default function Header() {
             )}
             {navLinks[1].name}
           </Link>
-          <Link href={navLinks[2].href} className="flex flex-col items-center text-[10px] z-20">
+          <Link href={navLinks[2].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url === navLinks[2].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
                 <Heart size={32} fill_text="fill-white"></Heart>
@@ -96,7 +96,7 @@ export default function Header() {
             )}
             {navLinks[2].name}
           </Link>
-          <Link href={navLinks[3].href} className="flex flex-col items-center text-[10px] z-20">
+          <Link href={navLinks[3].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url === navLinks[3].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
                 <Profil size={32} fill_text="fill-white"></Profil>

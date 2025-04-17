@@ -22,18 +22,6 @@
   --font-poppins: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --orange: #ff6235;
-    --vert: #2bb673;
-    --bleu: #d2edff;
-    --rose: #ffc3c3;
-    --vistawhite: #faf4f2;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
