@@ -1,10 +1,9 @@
 type SvgProps = {
-  fill_bg?: string;
   fill_text?: string;
   size?: number;
 } & React.SVGProps<SVGSVGElement>;
 
-export default function Formations({ fill_bg = "fill-background", fill_text = "fill-foreground", size = 44 }: SvgProps) {
+export default function Formations({ fill_text = "fill-foreground", size = 44 }: SvgProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clipPath="url(#clip0_120_269)">
