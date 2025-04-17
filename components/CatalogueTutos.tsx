@@ -2,7 +2,7 @@
 import SearchBar from "@/components/SearchBar";
 import { useState } from "react";
 import ArrowRight from "@/components/icons/ArrowRight";
-import Cta from "./Cta";
+import Image from "next/image";
 
 type Tuto = {
   id: number;
@@ -47,7 +47,7 @@ export default function CatalogueTutos({ tutos }: { tutos: Tuto[] }) {
           <div
             key={tuto.id}
             className="w-[332px] h-[496px]  rounded-4xl shadow-md hover:scale-[101%] transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between group">
-            <img src={tuto.image} alt={tuto.titre} className="block w-full h-full object-cover bg-bleu" />
+            <Image width={332} height={432} src={tuto.image} alt={tuto.titre} className="block w-full h-full object-cover bg-bleu" />
             {/* <h3 className="text-sm font-semibold">{tuto.titre}</h3>
               <p className="text-xs text-gray-600 dark:text-gray-300 line-clamp-2">{tuto.description}</p> */}
             <div className="bg-orange h-16 flex justify-between items-center">

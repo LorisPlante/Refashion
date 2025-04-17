@@ -4,7 +4,7 @@ type SvgProps = {
   size?: number;
 } & React.SVGProps<SVGSVGElement>;
 
-export default function ArrowRight({ fill_bg = "fill-background", fill_text = "fill-foreground", size = 44, ...props }: SvgProps) {
+export default function ArrowRight({ fill_bg = "fill-background", fill_text = "fill-foreground", size = 44 }: SvgProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 32 32" fill="none">
       <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" className={`${fill_bg}`} />

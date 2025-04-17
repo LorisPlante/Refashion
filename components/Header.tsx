@@ -63,11 +63,11 @@ export default function Header() {
           <Link href={navLinks[0].href} className="flex flex-col items-center text-[10px] z-20">
             {url === navLinks[0].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
-                <Search size={32} fill_text="fill-white"></Search>
+                <Search size={32} fill_bg="none" fill_text="fill-white"></Search>
               </div>
             ) : (
               <div className="size-[58px] flex justify-center items-center">
-                <Search size={32} fill_text="fill-black"></Search>
+                <Search size={32} fill_bg="none" fill_text="fill-black"></Search>
               </div>
             )}
             {navLinks[0].name}
@@ -75,11 +75,11 @@ export default function Header() {
           <Link href={navLinks[1].href} className="flex flex-col items-center text-[10px] z-20">
             {url === navLinks[1].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
-                <Formations size={32} fill_text="fill-white"></Formations>
+                <Formations size={32} fill_bg="none" fill_text="fill-white"></Formations>
               </div>
             ) : (
               <div className="size-[58px] flex justify-center items-center">
-                <Formations size={32} fill_text="fill-black"></Formations>
+                <Formations size={32} fill_bg="none" fill_text="fill-black"></Formations>
               </div>
             )}
             {navLinks[1].name}
@@ -87,11 +87,11 @@ export default function Header() {
           <Link href={navLinks[2].href} className="flex flex-col items-center text-[10px] z-20">
             {url === navLinks[2].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
-                <Heart size={32} fill_text="fill-white"></Heart>
+                <Heart size={32} fill_bg="none" fill_text="fill-white"></Heart>
               </div>
             ) : (
               <div className="size-[58px] flex justify-center items-center">
-                <Heart size={32} fill_text="fill-black"></Heart>
+                <Heart size={32} fill_bg="none" fill_text="fill-black"></Heart>
               </div>
             )}
             {navLinks[2].name}
@@ -99,11 +99,11 @@ export default function Header() {
           <Link href={navLinks[3].href} className="flex flex-col items-center text-[10px] z-20">
             {url === navLinks[3].href ? (
               <div className="size-[58px] bg-orange rounded-full flex justify-center items-center">
-                <Profil size={32} fill_text="fill-white"></Profil>
+                <Profil size={32} fill_bg="none" fill_text="fill-white"></Profil>
               </div>
             ) : (
               <div className="size-[58px] flex justify-center items-center">
-                <Profil size={32} fill_text="fill-black"></Profil>
+                <Profil size={32} fill_bg="none" fill_text="fill-black"></Profil>
               </div>
             )}
             {navLinks[3].name}
