@@ -52,7 +52,11 @@ export default function CatalogueTutos() {
               const isLiked = likedIds.has(tuto.id);
 
               return (
-                <div key={tuto.id} style={{ height: `${height}px` }} className="break-inside-avoid rounded-xl shadow-md overflow-hidden cursor-pointer group bg-white mb-4">
+                <a
+                  href="/tutos"
+                  key={tuto.id}
+                  style={{ height: `${height}px` }}
+                  className="block break-inside-avoid rounded-xl shadow-md overflow-hidden cursor-pointer group bg-white mb-4">
                   <div className="relative h-full w-full bg-bleu">
                     <div
                       className="absolute top-2 right-2 size-10 flex justify-center items-center rounded-full bg-white z-10"
@@ -67,7 +71,7 @@ export default function CatalogueTutos() {
                       <MoreHorizontal size={32} fill="white" stroke="white" />
                     </div>
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>
