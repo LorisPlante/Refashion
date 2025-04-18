@@ -33,7 +33,7 @@ export default function SearchRedirectBar() {
             </button>
           </div>
         </form>
-        <div onClick={() => setShowModalMobile(true)} className="w-fit">
+        <div onClick={() => setShowModalMobile(true)} className="w-fit cursor-pointer">
           <Filtres size={24} fill_text="fill-white" fill_bg="bg-orange"></Filtres>
         </div>
       </div>
