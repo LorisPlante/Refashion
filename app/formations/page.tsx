@@ -37,21 +37,21 @@ export default function FormationsPage() {
     <>
       <Header></Header>
       <SearchRedirectBar></SearchRedirectBar>
-      <main className="min-h-screen sm:pt-16">
+      <main className="min-h-screen pt-16">
         <div className="px-4 py-8">
           <h1 className="text-2xl font-bold mb-6">Découvrez les formations</h1>
 
           <div className="grid grid-cols-2 gap-4">
             {formations.map((formation) => (
-              <div key={formation.title} className="rounded-2xl overflow-hidden shadow-sm bg-white">
+              <a href="/formation" key={formation.title} className="rounded-2xl overflow-hidden shadow-sm bg-white cursor-pointer">
                 <div className="relative w-full h-40">
-                  <Image src={formation.image} alt={formation.title} fill className="object-cover" />
+                  <Image src={formation.image} alt={formation.title} fill className="object-cover bg-bleu" />
                 </div>
-                <div className="bg-orange text-black px-4 py-3 flex justify-between items-center">
+                <div className="bg-orange text-black p-2 flex justify-between items-center">
                   <span className="font-medium">{formation.title}</span>
                   <ArrowRight fill_bg="fill-none" fill_text="fill-black" />
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>

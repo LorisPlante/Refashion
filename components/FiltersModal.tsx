@@ -50,8 +50,8 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 z-50 flex justify-end">
-      <div className="w-full max-w-[420px] h-full bg-[#fcf7f4] p-6 overflow-y-auto relative">
+    <div className="fixed inset-0 bg-black/50 flex justify-end z-[999999999999999999]">
+      <div className="w-full h-full bg-[#fcf7f4] p-6 overflow-y-auto relative">
         {/* Close */}
         <button onClick={onClose} className="absolute top-4 right-4 flex justify-center items-center size-11 bg-black rounded-full">
           <X size={28} stroke="white" />
@@ -64,7 +64,10 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
           <p className="font-semibold mb-2">Trier par</p>
           <div className="flex flex-wrap gap-2">
             {difficulties.map((d) => (
-              <button key={d} onClick={() => setDifficulty(d)} className={`px-4 py-2 rounded-full border text-sm ${difficulty === d ? "bg-black text-white" : "border-black"}`}>
+              <button
+                key={d}
+                onClick={() => setDifficulty(d)}
+                className={`px-4 py-2 rounded-full border text-sm cursor-pointer ${difficulty === d ? "bg-black text-white" : "border-black"}`}>
                 {d}
               </button>
             ))}
@@ -81,7 +84,7 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
               <button
                 key={opt}
                 onClick={() => setHandedness(opt)}
-                className={`px-4 py-2 rounded-full border text-sm ${handedness === opt ? "bg-black text-white" : "border-black"}`}>
+                className={`px-4 py-2 rounded-full border text-sm cursor-pointer ${handedness === opt ? "bg-black text-white" : "border-black"}`}>
                 {opt}
               </button>
             ))}
@@ -98,7 +101,9 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
               <button
                 key={f.name}
                 onClick={() => toggle(f.name, setFabrics, fabricsSelected)}
-                className={`rounded-full w-[60px] h-[60px] bg-bleu overflow-hidden border-2 ${fabricsSelected.includes(f.name) ? "border-orange-500" : "border-transparent"}`}>
+                className={`rounded-full w-[60px] h-[60px] bg-bleu overflow-hidden cursor-pointer ${
+                  fabricsSelected.includes(f.name) ? "border-2 border-orange-500" : "border border-black"
+                }`}>
                 <Image src={f.img} alt={f.name} width={60} height={60} className="w-full h-full object-cover" />
               </button>
             ))}
@@ -115,7 +120,7 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
               <button
                 key={m}
                 onClick={() => toggle(m, setMaterials, materialsSelected)}
-                className={`px-4 py-2 rounded-full border text-sm ${materialsSelected.includes(m) ? "bg-black text-white" : "border-black"}`}>
+                className={`px-4 py-2 rounded-full border text-sm cursor-pointer ${materialsSelected.includes(m) ? "bg-black text-white" : "border-black"}`}>
                 {m}
               </button>
             ))}
@@ -132,7 +137,7 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
               <button
                 key={type}
                 onClick={() => toggle(type, setClothing, clothingSelected)}
-                className={`px-4 py-2 rounded-full border text-sm ${clothingSelected.includes(type) ? "bg-black text-white" : "border-black"}`}>
+                className={`px-4 py-2 rounded-full border text-sm cursor-pointer ${clothingSelected.includes(type) ? "bg-black text-white" : "border-black"}`}>
                 {type}
               </button>
             ))}

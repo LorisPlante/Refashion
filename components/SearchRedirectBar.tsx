@@ -15,7 +15,7 @@ export default function SearchRedirectBar() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
-    router.push(`/recherche?query=${encodeURIComponent(query.trim())}`);
+    router.push(`/recherche?search=${encodeURIComponent(query.trim())}`);
   };
 
   return (
