@@ -1,8 +1,5 @@
 "use client";
-import SearchBar from "@/components/SearchBar";
 import { useMemo, useState } from "react";
-import ArrowRight from "@/components/icons/ArrowRight";
-import Image from "next/image";
 import { Heart, MoreHorizontal } from "lucide-react";
 import tutos from "@/data/tutos.json";
 import SearchRedirectBar from "@/components/SearchRedirectBar";
@@ -20,16 +17,7 @@ type Tuto = {
   toolsNeeded: string[];
 };
 
-type SearchFilters = {
-  titre: string;
-  categorie: string;
-  difficulty: string;
-  itemType: string;
-  toolsNeeded: string[];
-};
-
 export default function CatalogueTutos() {
-  const [filtered, setFiltered] = useState<Tuto[]>(tutos);
   const [likedIds, setLikedIds] = useState<Set<number>>(new Set());
 
   const heights = [110, 130, 150, 170, 190, 210];

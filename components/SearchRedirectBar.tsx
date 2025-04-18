@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Search } from "lucide-react";
 import Filtres from "./icons/Filtres";
-import SuggestionsTutos from "./FiltersModal";
 import FiltersModal from "./FiltersModal";
 
 export default function SearchRedirectBar() {

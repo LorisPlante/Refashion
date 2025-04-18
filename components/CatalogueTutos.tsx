@@ -1,8 +1,5 @@
 "use client";
-import SearchBar from "@/components/SearchBar";
 import { useMemo, useState } from "react";
-import ArrowRight from "@/components/icons/ArrowRight";
-import Image from "next/image";
 import { Heart, MoreHorizontal } from "lucide-react";
 import SearchRedirectBar from "./SearchRedirectBar";
 
@@ -14,14 +11,6 @@ type Tuto = {
   categorie: string;
   itemType: string;
   difficulty: string;
-  toolsNeeded: string[];
-};
-
-type SearchFilters = {
-  titre: string;
-  categorie: string;
-  difficulty: string;
-  itemType: string;
   toolsNeeded: string[];
 };
 
@@ -46,19 +35,6 @@ export default function CatalogueTutos({ tutos }: { tutos: Tuto[] }) {
       newSet.has(id) ? newSet.delete(id) : newSet.add(id);
       return newSet;
     });
-  };
-
-  const handleFilter = (filters: SearchFilters) => {
-    const search = filters.titre.toLowerCase();
-    const result = tutos.filter(
-      (tuto) =>
-        (tuto.titre.toLowerCase().includes(search) || tuto.description.toLowerCase().includes(search)) &&
-        (!filters.categorie || tuto.categorie === filters.categorie) &&
-        (!filters.difficulty || tuto.difficulty === filters.difficulty) &&
-        (!filters.itemType || tuto.itemType === filters.itemType) &&
-        (filters.toolsNeeded.length === 0 || filters.toolsNeeded.every((tool) => tuto.toolsNeeded.includes(tool)))
-    );
-    setFiltered(result);
   };
 
   return (

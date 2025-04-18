@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 import { Heart } from "lucide-react";
-import ArrowRight from "@/components/icons/ArrowRight";
 import Cta from "@/components/Cta";
 import ArrowLeft from "@/components/icons/ArrowLeft";
 
