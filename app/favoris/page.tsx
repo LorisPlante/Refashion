@@ -5,6 +5,7 @@ import tutos from "@/data/tutos.json";
 import SearchRedirectBar from "@/components/SearchRedirectBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ProfilInactif from "@/components/ProfilInactif";
 
 type Tuto = {
   id: number;
@@ -19,6 +20,7 @@ type Tuto = {
 
 export default function CatalogueTutos() {
   const [likedIds, setLikedIds] = useState<Set<number>>(new Set());
+  const user = null; // Simule absence de session
 
   const heights = [110, 130, 150, 170, 190, 210];
 
@@ -43,6 +45,7 @@ export default function CatalogueTutos() {
     <>
       <Header></Header>
       <main className="min-h-screen pt-16">
+        {!user && <ProfilInactif></ProfilInactif>}
         <div className="px-4 py-8">
           <SearchRedirectBar></SearchRedirectBar>
 
@@ -61,6 +64,7 @@ export default function CatalogueTutos() {
                     <div
                       className="absolute top-2 right-2 size-10 flex justify-center items-center rounded-full bg-white z-10"
                       onClick={(e) => {
+                        e.preventDefault();
                         e.stopPropagation();
                         toggleLike(tuto.id);
                       }}>

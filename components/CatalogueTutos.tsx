@@ -56,6 +56,7 @@ export default function CatalogueTutos({ tutos }: { tutos: Tuto[] }) {
                 <div
                   className="absolute top-2 right-2 size-10 flex justify-center items-center rounded-full bg-white z-10"
                   onClick={(e) => {
+                    e.preventDefault();
                     e.stopPropagation();
                     toggleLike(tuto.id);
                   }}>

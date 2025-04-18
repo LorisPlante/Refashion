@@ -23,7 +23,7 @@ export default function Header() {
   const url = usePathname();
 
   return (
-    <header className="bg-background text-foreground shadow-md fixed top-0 z-50 w-full">
+    <header className="bg-background text-foreground shadow-md fixed top-0 w-full z-[999999999999]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 hidden sm:flex items-center justify-between h-16">
         <Link href="/">
           <svg className="fill-foreground w-[148px] h-[40px]" viewBox="0 0 418 91" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ export default function Header() {
       )}
 
       {/* NAV MOBILE EN BAS DU TRUC */}
-      <nav className="block sm:hidden fixed bottom-0 left-0 w-full p-3">
+      <nav className="block sm:hidden fixed bottom-0 left-0 w-full p-3 ">
         <div className="w-full h-[86px] bg-vistawhite rounded-full flex justify-between items-center relative px-4">
           <Link href={navLinks[0].href} className="flex flex-col items-center text-[10px] text-black z-20">
             {url.includes(navLinks[0].href) ? (
