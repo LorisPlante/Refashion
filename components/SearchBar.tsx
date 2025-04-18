@@ -41,6 +41,7 @@ export default function SearchBar({ onFilter }: { onFilter: (filters: SearchFilt
   const [itemType, setItemType] = useState("");
   const [toolsNeeded, setToolsNeeded] = useState<string[]>([]);
   const [showModal, setShowModal] = useState(false);
+  const [showModalMobile, setShowModalMobile] = useState(false);
 
   const toggleTool = (tool: string) => {
     setToolsNeeded((prev) => (prev.includes(tool) ? prev.filter((t) => t !== tool) : [...prev, tool]));
@@ -52,6 +53,32 @@ export default function SearchBar({ onFilter }: { onFilter: (filters: SearchFilt
 
   return (
     <>
+      <div
+        className="fixed top-0 left-0 bg-background mx-4 my-8 w-[calc(100%-32px)] flex md:hidden rounded-full justify-between items-center shadow-md p-3 cursor-pointer mb-4 border border-gray-100 z-[99999999999]"
+        onClick={() => setShowModalMobile(true)}>
+        <span>Rechercher ...</span>
+        <Search></Search>
+      </div>
+
+      {showModalMobile && (
+        <div className="fixed top-0 left-0 h-full w-full bg-black/40 flex justify-center items-center z-[999999999999]">
+          <div></div>
+          <div className="bg-vistawhite mx-4 my-8 w-[calc(100%-32px)] rounded-4xl min-h-96 p-4 flex flex-col gap-3 z-[99999999999999]">
+            <span className="text-lg text-black font-poppins">Je veux réparer...</span>
+            <div className="relative w-full h-fit">
+              <input
+                type="text"
+                placeholder="Rechercher ..."
+                className="bg-background w-full flex md:hidden rounded-full justify-between items-center shadow-md p-3 cursor-pointer mb-4 border border-gray-100"
+              />
+              <div className="absolute right-3 top-3">
+                <Search></Search>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="hidden md:flex flex-wrap gap-6 items-end bg-white dark:bg-zinc-900 rounded-full shadow-md border border-gray-200 px-6 py-4 w-fit mx-auto mb-6">
         <div className="flex flex-col">
           <span className="text-xs font-semibold">Titre</span>

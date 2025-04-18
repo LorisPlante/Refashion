@@ -5,7 +5,7 @@ export default function PageProfil() {
   return (
     <>
       <Header></Header>
-      <main className="min-h-screen pt-16"></main>
+      <main className="min-h-screen sm:pt-16"></main>
       <Footer></Footer>
     </>
   );
