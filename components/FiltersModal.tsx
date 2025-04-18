@@ -50,8 +50,8 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex justify-end z-[999999999999999999]">
-      <div className="w-full h-full bg-[#fcf7f4] p-6 overflow-y-auto relative">
+    <div className="fixed inset-0  flex justify-end z-[999999999999999999]">
+      <div className="w-full h-full bg-[#fcf7f4]/60 backdrop-blur-sm p-6 overflow-y-auto relative">
         {/* Close */}
         <button onClick={onClose} className="absolute top-4 right-4 flex justify-center items-center size-11 bg-black rounded-full">
           <X size={28} stroke="white" />
@@ -147,7 +147,7 @@ export default function FiltersModal({ onClose, onSearch }: { onClose: () => voi
         {/* CTA */}
         <div className="flex justify-center">
           <div onClick={handleSubmit} className="w-fit">
-            <Cta link="/recherche" bg="bg-orange" text="text-white" fill_bg_icon="fill-orange" fill_text_icon="fill-white" size_icon={28} displayIcon={true}>
+            <Cta link="/recherche/item" bg="bg-orange" text="text-white" fill_bg_icon="fill-orange" fill_text_icon="fill-white" size_icon={28} displayIcon={true}>
               Rechercher
             </Cta>
           </div>

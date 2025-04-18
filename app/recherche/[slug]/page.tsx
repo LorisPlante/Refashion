@@ -1,44 +1,71 @@
-import { Heart, MessageCircle, MoreHorizontal } from "lucide-react";
+"use client";
+import { Heart, MoreHorizontal } from "lucide-react";
+import tutos from "@/data/tutos.json";
+import { useMemo, useState } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SearchRedirectBar from "@/components/SearchRedirectBar";
 
 export default function Page() {
+  const [likedIds, setLikedIds] = useState<Set<number>>(new Set());
+  const user = null; // Simule absence de session
+
+  const heights = [110, 130, 150, 170, 190, 210];
+
+  // 👇 Une seule fois au montage
+  const cardHeights = useMemo(() => {
+    const map = new Map<number, number>();
+    tutos.forEach((tuto) => {
+      map.set(tuto.id, heights[Math.floor(Math.random() * heights.length)]);
+    });
+    return map;
+  }, [tutos]);
+
+  const toggleLike = (id: number) => {
+    setLikedIds((prev) => {
+      const newSet = new Set(prev);
+      newSet.has(id) ? newSet.delete(id) : newSet.add(id);
+      return newSet;
+    });
+  };
+
   return (
-    <div className="min-h-screen pb-24 px-4">
-      {/* Barre de recherche + menu */}
-      <div className="flex items-center justify-between mt-6 mb-4">
-        <div className="flex-1">
-          <input placeholder="Rechercher" className="w-full rounded-full px-4 py-2 shadow-md text-sm" />
+    <>
+      <Header></Header>
+      <main className="min-h-screen pt-24 px-4 py-8">
+        <SearchRedirectBar></SearchRedirectBar>
+        <div className="columns-2 space-y-4 px-2 h-full">
+          {tutos.slice(0, 1).map((tuto) => {
+            const height = cardHeights.get(tuto.id) ?? 150;
+            const isLiked = likedIds.has(tuto.id);
+
+            return (
+              <a
+                href="/tutos"
+                key={tuto.id}
+                style={{ height: `${height}px` }}
+                className="block break-inside-avoid rounded-xl shadow-md overflow-hidden cursor-pointer group bg-white mb-4">
+                <div className="relative h-full w-full bg-bleu">
+                  <div
+                    className="absolute top-2 right-2 size-10 flex justify-center items-center rounded-full bg-white z-10"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      toggleLike(tuto.id);
+                    }}>
+                    <Heart size={24} fill={isLiked ? "black" : "none"} stroke="black" />
+                  </div>
+
+                  <div className="absolute bottom-2 right-2 z-10">
+                    <MoreHorizontal size={32} fill="white" stroke="white" />
+                  </div>
+                </div>
+              </a>
+            );
+          })}
         </div>
-        <div className="ml-4 w-10 h-10 rounded-full bg-black flex items-center justify-center">
-          <div className="w-5 h-[2px] bg-white" />
-        </div>
-      </div>
-
-      {/* Vidéo placeholder */}
-      <div className="w-full aspect-square bg-gray-300 rounded-xl flex items-center justify-center text-white text-lg font-semibold">Vidéo</div>
-
-      {/* Infos */}
-      <div className="flex items-center justify-between mt-4">
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1 text-sm">
-            <Heart className="w-5 h-5" /> 20
-          </div>
-          <div className="flex items-center gap-1 text-sm">
-            <MessageCircle className="w-5 h-5" /> 2
-          </div>
-          <MoreHorizontal className="w-5 h-5" />
-        </div>
-        <button className="bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-md">Mettre en favoris</button>
-      </div>
-
-      {/* Auteur */}
-      <div className="flex items-center gap-2 mt-4">
-        <div className="w-4 h-4 rounded-full bg-gray-300" />
-        <p className="text-sm">
-          Posté(e) par <strong>Re_Fresh</strong>
-        </p>
-      </div>
-
-      <p className="text-sm mt-2 text-black/80">Découvrez comment réparer votre jean déchiré avec seulement 2 outils !</p>
-    </div>
+      </main>
+      <Footer></Footer>
+    </>
   );
 }

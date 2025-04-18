@@ -38,10 +38,10 @@ export default function CatalogueTutos({ tutos }: { tutos: Tuto[] }) {
   };
 
   return (
-    <div className="px-4 py-8">
+    <div className="px-4 py-8 h-full">
       <SearchRedirectBar></SearchRedirectBar>
 
-      <div className="columns-2 space-y-4 px-2">
+      <div className="columns-2 space-y-4 px-2 h-full">
         {filtered.map((tuto) => {
           const height = cardHeights.get(tuto.id) ?? 150;
           const isLiked = likedIds.has(tuto.id);

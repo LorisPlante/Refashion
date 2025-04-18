@@ -46,10 +46,10 @@ export default function CatalogueTutos() {
       <Header></Header>
       <main className="min-h-screen pt-16">
         {!user && <ProfilInactif></ProfilInactif>}
-        <div className="px-4 py-8">
+        <div className="px-4 py-8 h-full">
           <SearchRedirectBar></SearchRedirectBar>
 
-          <div className="columns-2 space-y-4 px-2">
+          <div className="columns-2 space-y-4 px-2 h-full">
             {tutos.slice(0, 5).map((tuto) => {
               const height = cardHeights.get(tuto.id) ?? 150;
               const isLiked = likedIds.has(tuto.id);
